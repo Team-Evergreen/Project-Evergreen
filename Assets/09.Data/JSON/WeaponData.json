@@ -1,0 +1,26 @@
+{
+  "Weapons": [
+    {
+      "id": 1,
+      "weaponName": "Pistol",
+      "weaponType": 0,
+      "equipTarget": 0,
+      "speed": 1,
+      "range": 10,
+      "damage": 5,
+      "fireRate": 3,
+      "isMelee": false
+    },
+    {
+      "id": 2,
+      "weaponName": "Rifle",
+      "weaponType": 1,
+      "equipTarget": 0,
+      "speed": 0.3,
+      "range": 10,
+      "damage": 4,
+      "fireRate": 3,
+      "isMelee": true
+    }
+  ]
+}
