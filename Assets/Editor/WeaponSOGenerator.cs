@@ -8,7 +8,7 @@ public class WeaponSOGenerator : EditorWindow
     [MenuItem("Tools/Weapon SO Generator")]
     public static void GenerateSO()
     {
-        // JSON 파일 경로 (Resources 폴더 내에 있다고 가정)
+        // JSON 파일 경로
         string jsonPath = Application.dataPath + "/09.Data/JSON/WeaponData.json";
 
         if (!File.Exists(jsonPath))
@@ -33,7 +33,7 @@ public class WeaponSOGenerator : EditorWindow
 
         foreach (var data in dataList.Weapons)
         {
-            WeaponData asset = ScriptableObject.CreateInstance<WeaponData>();
+            WeaponData asset = CreateInstance<WeaponData>();
 
             // 기본 데이터 할당
             asset.weaponName = data.weaponName;

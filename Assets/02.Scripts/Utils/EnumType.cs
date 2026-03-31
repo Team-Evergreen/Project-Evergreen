@@ -29,7 +29,7 @@ namespace Utils.EnumType
         Die
     }
 
-    // 무기 종류
+    // 무기 타입
     public enum WeaponType
     {
         // 플레이어용 (Person-held)
@@ -43,7 +43,7 @@ namespace Utils.EnumType
         Turret
     }
 
-    // 무기 타입
+    // 무기 종류
     public enum EquipTarget
     {
         Player,

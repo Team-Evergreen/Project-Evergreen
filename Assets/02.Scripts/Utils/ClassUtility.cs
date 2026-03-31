@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace Utils.ClassUtility
 {
-    // 플레이어 데이터 구조
+    // 무기 데이터 구조
     [Serializable]
     public class WeaponDataList
     {

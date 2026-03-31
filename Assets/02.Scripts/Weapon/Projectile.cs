@@ -20,9 +20,9 @@ public class Projectile : MonoBehaviour
         transform.Translate(Vector3.right * speed * Time.deltaTime);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D _collision)
     {
-        if (collision.CompareTag("Enemy"))
+        if (_collision.CompareTag("Enemy"))
         {
             // Enemy 스크립트의 TakeDamage 호출 (인터페이스 사용 권장)
             // collision.GetComponent<IEntity>().TakeDamage(damage);
